@@ -30,6 +30,7 @@ class AdminPanelProvider extends PanelProvider
             ->path('admin')
             ->login()
             ->profile()
+            ->emailVerification()
             ->passwordReset()
             ->colors([
                 'primary' => Color::Amber,
